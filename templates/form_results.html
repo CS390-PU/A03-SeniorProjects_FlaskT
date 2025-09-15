@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <h1>Executing Flask Form</h1>
+    <h2>Major: {{ major }}</h2>
+    <h2>Advisor: {{ advisor }}</h2>
+    <h2>Room: {{ room }}</h2>
+    <h2>Time: {{ time }}</h2>
+    <h2>Display Full Abstract: {{ fullabstract }}</h2>
+    <h2>Display Posters or Talks: {{ posters }}</h2>
+    <h2>First Name: {{ firstname }}</h2>
+    <h2>Last Name: {{ lastname }}</h2>
+    <h2>Words in Title: {{ wordsintitle }}</h2>
+    <h2>Words in Abstract: {{ wordsinabstract }}</h2>
+</body>
+</html>
